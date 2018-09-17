@@ -1,11 +1,11 @@
 # Site settings
-author: Kevin W.
-title: 
+author: Kevin Williams
+title: Modern Software Engineering
 header-img: img/home-bg.png
 email: kjoewill@gmail.com
-copyright_name: Kevin W.
+copyright_name: Kevin Williams
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Software Design as Art and Semi-Random Musings
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  kjoewill
