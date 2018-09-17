@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Back to the Future!"
-date:       2018-09-17 18:13:52 +0000
+date:       2018-09-17 14:13:52 -0400
 permalink:  back_to_the_future
 ---
 
 
-I started developing software professionally in 1982 and spent the following thirty-plus years working in various parts of an existing industry.  At the very beginning, as I approached graduation, I truly had no idea what was in store for me and I was, of course, worried.  Several of my professors had warned me that the typical software engineer would spend most of their career maintaining rusty old systems originally developed by others.  Severely plagued by early-adult angst, I fretted about my future life in this profession.  My mind conjured up dreary images of long days pouring over endless paper printouts struggling to decipher cryptic code developed years before by engineers much brighter than myself but that had moved on long ago leaving me cold and alone to keep their once beautiful creations running while I methodically shredded them into chaos with one ignorant patch after another.  
+I started developing software professionally in 1982 and spent the following thirty-plus years working in various parts of an exciting industry.  At the very beginning, as I approached graduation, I truly had no idea what was in store for me and I was, of course, worried.  Several of my professors had warned me that the typical software engineer would spend most of their career maintaining rusty old systems originally developed by others.  Severely plagued by early-adult angst, I fretted about my future life in this profession.  My mind conjured up dreary images of long days pouring over endless paper printouts struggling to decipher cryptic code developed years before by engineers much brighter than myself but that had moved on long ago leaving me cold and alone to keep their once beautiful creations running while I methodically shredded them into chaos with one ignorant patch after another.  
 
 Happily, these anxious ruminations could not have been further from what I actually experienced. The software industry was positively booming and pushing itself into every area of the modern world.  I found greenfield projects wherever I turned along with talented co-workers and more senior mentors to guide me.  I discovered that any young developer with a reasonable amount of talent and dedication could find incredibly varied and exciting work and thrive.
 
