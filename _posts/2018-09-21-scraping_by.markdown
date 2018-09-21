@@ -12,7 +12,7 @@ First, I conjured up and idea for an application that, while a bit contrived, wo
 
 I initially took an outside in approach and began with a simple CLI (command line interface) in mind.  Then I created my domain model which consisted of just a handful of classes.  Not surprisingly the center of this model is the class Airport.  A small number of other classes act in supporting roles such as a Scraper and WeatherAPI classes.
 
-![alt text]](https://github.com/kjoewill/ifr_airports/blob/master/images/model.png)
+![alt text]](https://github.com/kjoewill/ifr_airports/blob/master/images/model.jpg)
 
 I “wired’ up the CLI with mocked instances of my Airport class and got the basic CLI commands working.  Once happy with that flow I turned to the Scraper and WeatherAPI classes and was excited to see this also come together quickly.  The heavy lifting was all done by the Nokogiri gem for scrapping Airport information and the built in Ruby Net::HTTP and JSON classes to interact with the web service.  Using these utilities and Ruby allowed me to produce the app with surprisingly few lines of code.  My Airport, Scrapper and WeatherAPI classes are each fewer than 40 lines!  Lots of functionality and few lines of code.  This is what makes programming a joy.
 
