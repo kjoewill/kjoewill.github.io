@@ -71,7 +71,7 @@ end
 
 ```
 
-Its so simple and so elegant and so obvious!  I doubt I could ever I have invented it. 
+Its so simple and so elegant and so obvious!  I doubt I could ever could have invented it. 
 
 
 
