@@ -56,7 +56,7 @@ Utilizing #tap makes this method much cleaner and better overall, from my point 
 First, although I still employ a variable, now its scoped to the block rather than to the method.  More narrow scoping is always better.  Secondly, I no longer need the pesky dangling reference to ensure return of the instance.
 
 Here's the contract from the #tap methods perspective:  
-> Call me on on any instance(i) and pass me a block.  I'll run that block and pass in the instance as a block variable.  Once the block completes I'll return i.
+> Call me on on any instance and pass me a block.  I'll run that block and pass it the instance as a block variable.  Once the block completes I'll return the instance.
 > 
 
 Here's the Ruby implemtation of the tap method:
