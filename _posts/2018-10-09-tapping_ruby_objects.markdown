@@ -71,7 +71,7 @@ end
 
 ```
 
-This amazes me!  The tap method is four lines long.  It contains only six words!  It's so simple and so elegant and so obvious now that I see it.  I doubt I ever could have invented it. 
+This amazes me!  The tap method is four lines long.  It contains only six words!  It's so simple and so elegant and so obvious - now that I see it.  I doubt I ever could have invented it. 
 
 
 
