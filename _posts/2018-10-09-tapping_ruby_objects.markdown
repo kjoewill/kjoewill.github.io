@@ -40,7 +40,7 @@ puts "#{sam.name} , #{sam.age}"  #=> Sam , 38
 
 ```
 
-I have programmed this same pattern probably thousands of times and it has always felt reasonable but also a bit troubling.  In this old implementation I would employ a method-scoped variable to hold onto the instance while I modify its state ... but I really like to minimize method variables. Also, and most irksome, is the last line where I force return of the instance by dangling a reference to it, 'aParrot', at the end of the method.
+I have programmed this same pattern probably thousands of times and it has always felt reasonable but also a bit troubling.  In this old implementation I would employ a method-scoped variable to hold onto the instance while I modify its state ... but I really like to minimize method variables. Also, and even more irksome is that I need to employ a "dangling" reference to the new instance at the end of the method to force return of the instance.
 
 Utilizing #tap makes this method much cleaner and better overall, from my point of view, in both respects.   Here's the equivalent method with tap:
 
