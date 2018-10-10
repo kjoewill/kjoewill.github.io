@@ -59,7 +59,7 @@ Here's the contract from the #tap methods perspective:
 > Call me on on any instance and pass me a block.  I'll run that block and pass it the instance as a block variable.  Once the block completes I'll return the instance.
 > 
 
-Here's the Ruby implemtation of the tap method:
+Here's the Ruby implementation of the tap method:
 
 ```
 class Object
