@@ -9,7 +9,7 @@ permalink:  tapping_ruby_objects
 Lately I have been spending quite a bit of time with Ruby and I am seriously enjoying working with this pure OO language and its elegant support for blocks.  I was first exposed to blocks and iterators over twenty years ago when I started working with Smalltalk.  Coming from more procedural languages, I was blown away by this new paradigm and went absolutely crazy for blocks and iterators.  Since that time, when I thought of OO and code blocks I also, of course, thought of iterators.  I probably overdid it.
 
 
-Recently I have come across the Ruby #tap method and a completely different use for code blocks.  The first few times I saw this method in use I just glossed over it without giving it much thought.  It was not conforming to my mental model of block usage and seemed very odd and maybe a bit pretentious. Then I ran into it several more times and saw it employed and by developers I admired and this got my attention.  After a little exploration I was completely won over and now I find myself looking for opportunities to employ #tap ... I am probably overdoing it again!
+Recently I have come across the Ruby #tap method and a completely different use for code blocks.  The first few times I saw this method in use I just glossed over it without giving it much thought.  It was not conforming to my mental model of block usage and seemed odd and maybe a bit pretentious. Then I ran into it several more times and saw it employed and by developers I admired and this got my attention.  After a little exploration I was completely won over and now I find myself looking for opportunities to employ #tap ... I am probably overdoing it again!
 
 Here's the use-case that sold me:  ... suppose you need to:
 
