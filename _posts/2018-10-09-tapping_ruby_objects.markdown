@@ -40,12 +40,12 @@ puts "#{sam.name} , #{sam.age}"  #=> Sam , 38
 
 ```
 
-I have programmed this same pattern probably thousands of times and it has always felt reasonable but also a bit troubling.  In this old implementation I would employ a method-scoped variable to hold onto the instance while I modify its state ... but I really like to minimize method variables. Also, and even more irksome is that I need to employ a "dangling" reference to the new instance at the end of the method to force return of the instance.
+I have programmed this same pattern probably thousands of times and it has always felt reasonable but also a bit troubling.  In this old implementation I would employ a method-scoped variable to hold onto the instance while I modify its state ... but I really like to minimize method variables. Also, and even more irksome is that I need to add a "dangling" reference to the new instance at the end of the method to force return of the instance.
 
 Utilizing #tap makes this method much cleaner and better overall, from my point of view, in both respects.   Here's the equivalent method with tap:
 
 ```
-  def self.new_from_array_tap(array)
+  def self.new_from_array(array)
     self.new.tap do |i|
       i.name = array[0]
       i.age = array[1]
@@ -53,7 +53,7 @@ Utilizing #tap makes this method much cleaner and better overall, from my point 
   end
 ```
 
-Although I still employ a variable, now its scoped to the block rather than to the method and more narrow scoping is always better.  Also, I no longer need the pesky dangling reference as the last line to ensure return of the instance; #tap does that for me!
+Although I still employ a variable, now its scoped to the block rather than to the method and more narrow scoping is always better.  Also, I no longer need the pesky dangling reference at the end of the method since #tap returns the instance for me!
 
 Here's the contract from the tap method's perspective:  
 > Call me on on any instance and pass me a block.  I'll run that block and pass it the instance as a block variable.  Once the block completes I'll return the instance.
@@ -71,7 +71,7 @@ end
 
 ```
 
-This amazes me!  The tap method is four lines long.  It contains only six words!  It's so simple and so elegant and so obvious - now that I see it.  I doubt I ever could have invented it. 
+This amazes me!  The tap method is four lines long.  It contains only six words!  It's so simple and so elegant and so obvious (in hindsight).  I doubt I ever could have invented it. 
 
 
 
