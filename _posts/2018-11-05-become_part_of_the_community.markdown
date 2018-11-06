@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Become part of the community"
-date:       2018-11-06 02:28:34 +0000
+title:      "The Value in a Well Asked Question "
+date:       2018-11-05 21:28:35 -0500
 permalink:  become_part_of_the_community
 ---
 
