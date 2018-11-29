@@ -19,7 +19,7 @@ Sinatra is a Rack-based Domain Specific Language(DSL)/Framework built to support
 Many developers do not know this but Active Record’s support for Object-Relational mapping, database migrations and validations can be used outside of Rails.  This was certainly news to me!
 
 ### REST
-The REST conventions that we take for granted today originated from Roy Thomas Fielding’s PhD [dissertation](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) in 2000.  Although much bigger than a set of routing conventions  - seriously, take a look at the dissertation - following these conventions leads to an understandable web app that promises to scale and remain maintainable.
+The REST conventions that we take for granted today originated from Roy Thomas Fielding’s PhD [dissertation](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm) in 2000.  Although its much bigger than a set of routing conventions  - seriously, take a look at the dissertation - following these conventions leads to an understandable web app that promises to scale and remain maintainable.
 
 ### The App
 The application I choose to implement with these tools and conventions is a fairly simple (but complete) online Flight Log that can be used by pilots to create and maintain a record of all their flying activity.  The app allows a new user to create an account with a password, log in to their own home page and then, create, read, update and delete flight logs.  The logs contains fields for date, origin airport, destination airport, number of landings, general remarks and duration of flight.  The user’s home page also provides some related statistics such as total number of flights, cumulative hours flown, etc.
