@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra - Pulling it all together"
-date:       2018-11-29 01:56:59 +0000
+date:       2018-11-28 20:57:00 -0500
 permalink:  sinatra_-_pulling_it_all_together
 ---
 
@@ -15,7 +15,7 @@ I’ve recently completed a Sinatra-based project which pulls together several t
 ### Sinatra
 Sinatra is a Rack-based Domain Specific Language(DSL)/Framework built to support development of web-applications written in Ruby.  Like Rails, Sinatra employs Ruby’s inherent support for meta-programming to provide the DSL it presents to the developer.  My understanding is that Sinatra is lighter-weight and, perhaps, more flexible than Rails which insists on several conventional structures like MVC.
 
-###Active Record
+### Active Record
 Many developers do not know this but Active Record’s support for Object-Relational mapping, database migrations and validations can be used outside of Rails.  This was certainly news to me!
 
 ### REST
