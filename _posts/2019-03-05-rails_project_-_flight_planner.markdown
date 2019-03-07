@@ -18,9 +18,9 @@ I did not find an easy way to extract the distance of the path from Google Maps 
 
 Besides basic flight planning, a registered user can also use the application to report issues with a flown aircraft such as underinflated tires or malfunctioning avionics
 
-Here a UML diagram of the application:
+Here's a UML diagram of the application:
 
-![](http://drive.google.com/open?id=14vjnm1tg2B6U6ONM-z5KslqsDeFiys2j)
+![](http://drive.google.com/uc?id=14vjnm1tg2B6U6ONM-z5KslqsDeFiys2j)
 
 And here's the [GitHub repo](https://github.com/kjoewill/flight-planner) if you'd like to look at the source.
 
