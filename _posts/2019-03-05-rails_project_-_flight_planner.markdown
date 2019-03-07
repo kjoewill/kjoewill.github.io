@@ -10,7 +10,7 @@ I took the opportunity to cement some fundamental Rails skills and also to stret
 
 In a nutshell, the application allows a private pilot to plan between two selected airports in a selected aircraft.  When a new flight plan is created the google maps API is leveraged to provide a view of the most direct path between the two airports.  Here's an example:
 
-![](https://drive.google.com/open?id=14vtPJuEGXCtcNoNo2Sdd_RuKiML4pRPV)
+![]https://drive.google.com/uc?id=14vtPJuEGXCtcNoNo2Sdd_RuKiML4pRPV)
 
 After providing two distinct points on the planet in terms of a atitude/long pairs, Google Maps does all the heavy lifting with regard to providing the image, the two marked points and the shortest path between the point.  The path appears curved on a flat map because its representing a direct line as if it was drawn on a globe.
 
