@@ -12,9 +12,9 @@ In a nutshell, the application allows a private pilot to plan between two select
 
 ![](https://drive.google.com/uc?id=14vtPJuEGXCtcNoNo2Sdd_RuKiML4pRPV)
 
-After providing two distinct points on the planet in terms of a atitude/long pairs, Google Maps does all the heavy lifting with regard to providing the image, the two marked points and the shortest path between the point.  The path appears curved on a flat map because its representing a direct line as if it was drawn on a globe.
+After providing two distinct points on the planet in terms of latitude/longitude pairs, Google Maps does all the heavy lifting with regard to providing the image, the two marked points and the shortest path between the point.  The path appears curved on a flat map because its representing a direct line as if it was drawn on a globe.
 
-I did not find an easy way to extract the distance of the path from Google Maps so the application calculates this value using a slick set of equations called the [Haversine Formula](https://rosettacode.org/wiki/Haversine_formula).  The calculated distance is used to calculate expected flight times and also provide a log of total distance flown over all flights.
+I did not find an easy way to extract the distance of the path from Google Maps so the application calculates this value using a slick set of equations called the [Haversine Formula](https://rosettacode.org/wiki/Haversine_formula).  The calculated distance is used to estimate expected flight times and also provide a log of total distance flown over all flights.
 
 Besides basic flight planning, a registered user can also use the application to report issues with a flown aircraft such as underinflated tires or malfunctioning avionics
 
